@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeGym">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="350dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Home"
+            android:textColor="@color/black"
+            android:fontFamily="@font/font"
+            android:layout_marginTop="230dp"
+            android:textSize="50dp">
+        </TextView>
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Gym"
+        android:textColor="@color/black"
+        android:fontFamily="@font/font"
+        android:textSize="50dp">
+    </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Pogodin"
+            android:fontFamily="@font/font"
+            android:drawableLeft="@drawable/man">
+        </EditText>
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Pogodin"
+            android:password="true"
+            android:fontFamily="@font/font"
+            android:drawableLeft="@drawable/zam">
+        </EditText>
+
+        <Button
+            android:id="@+id/but_in"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:accessibilityHeading="false"
+            android:autoText="false"
+            android:backgroundTint="@color/black"
+            android:fontFamily="@font/font"
+            android:text="Sign in"
+            app:cornerRadius="20dp"></Button>
+
+        <TextView
+            android:id="@+id/tv_sign_up"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:allowUndo="false"
+            android:clickable="true"
+            android:contextClickable="false"
+            android:fontFamily="@font/font"
+            android:gravity="center"
+            android:linksClickable="false"
+            android:text="SIGN UP"
+            android:textColor="@color/black">
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>
